@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    tools:backgroundTint="#F1F1F1"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <ru.alexeypodusov.searchabletoolbar.BackgroundView
+        android:id="@+id/background_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        tools:hint="Поиск персонажей"
+        android:padding="0dp"
+        tools:textColor="@android:color/black"
+        tools:textColorHint="@android:color/black"
+        android:textSize="16sp"
+        android:elevation="1dp"
+        android:maxLines="1"
+        app:layout_constraintBottom_toBottomOf="@id/button_text"
+        app:layout_constraintEnd_toEndOf="@id/button_text"
+        app:layout_constraintStart_toStartOf="@id/button_text"
+        app:layout_constraintTop_toTopOf="@id/button_text" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/back_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="@+id/edit_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/edit_text" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/button_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="5dp"
+        android:gravity="center_vertical"
+        tools:text="Поиск персонажей"
+        tools:textColor="@android:color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@id/background_view_stub"
+        app:layout_constraintEnd_toEndOf="@id/background_view_stub"
+        app:layout_constraintStart_toEndOf="@id/search_icon"
+        app:layout_constraintTop_toTopOf="@id/background_view_stub" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/search_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="@id/background_view_stub"
+        app:layout_constraintEnd_toStartOf="@id/button_text"
+        app:layout_constraintStart_toStartOf="@id/background_view_stub"
+        app:layout_constraintTop_toTopOf="@id/background_view_stub" />
+
+    <View
+        android:id="@+id/background_view_stub"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</merge>

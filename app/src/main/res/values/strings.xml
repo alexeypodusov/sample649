@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sample649</string>
+    <string name="characters">Персонажи</string>
+    <string name="graph">Диаграмма</string>
+    <string name="compose">COMPOSE</string>
+    <string name="view">VIEW</string>
+</resources>

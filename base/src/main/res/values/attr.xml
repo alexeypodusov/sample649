@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="cardBackgroundColor" format="color"/>
+    <attr name="secondScreenBackgroundColor" format="color"/>
+    <attr name="deleteIconColor" format="color"/>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CharactersFeature</string>
+
+    <string name="character_photo_description_default">Character photo</string>
+    <string name="searchbar_hint">Поиск персонажей</string>
+    <string name="retry">Попробовать еще раз</string>
+    <string name="empty">Ничего не найдено</string>
+</resources>

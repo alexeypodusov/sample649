@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ItemTitle">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="ItemSubtitle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="SearchableToolbar">
+        <item name="hintColor">@color/grey_575757</item>
+        <item name="editTextColor">@color/black</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="iconColor">@color/grey_575757</item>
+    </style>
+</resources>

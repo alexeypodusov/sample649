@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rounded_item_character_background"
+    android:paddingBottom="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginHorizontal="16dp"
+    android:elevation="6dp"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@color/dark_gray"
+        app:layout_constraintEnd_toEndOf="@+id/test_text"
+        android:contentDescription="@string/character_photo_description_default" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        style="@style/ItemTitle"
+        tools:text="Walter White"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        style="@style/ItemSubtitle"
+        tools:text="Heisenberg"/>
+</LinearLayout>

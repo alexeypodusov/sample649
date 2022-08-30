@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SearchableToolbar">
+        <item name="hintColor">@color/light_gray</item>
+        <item name="editTextColor">@color/white</item>
+        <item name="backgroundColor">@color/light_black</item>
+        <item name="iconColor">@color/light_gray</item>
+    </style
+    ></resources>

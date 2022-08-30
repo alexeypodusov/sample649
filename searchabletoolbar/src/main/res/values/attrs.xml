@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SearchableToolbar">
+        <attr name="hintText" format="string"/>
+        <attr name="hintColor" format="color"/>
+        <attr name="editTextColor" format="color"/>
+        <attr name="backgroundColor" format="color"/>
+        <attr name="iconColor" format="color"/>
+        <attr name="state">
+            <enum name="button" value="0" />
+            <enum name="input" value="1" />
+        </attr>
+
+    </declare-styleable>
+</resources>

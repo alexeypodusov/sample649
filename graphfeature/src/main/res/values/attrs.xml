@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphView">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="minItemColor" format="color"/>
+        <attr name="maxItemColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="lineColor" format="color"/>
+    </declare-styleable>
+</resources>

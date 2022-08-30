@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation"
+    app:startDestination="@id/characters_tab">
+
+    <navigation
+        android:id="@+id/characters_tab"
+        app:startDestination="@id/charactersFragment">
+        <fragment
+            android:id="@+id/charactersFragment"
+            android:name="ru.alexeypodusov.sample649.charactersfeature.presentation.view.CharactersFragment"
+            android:label="fragment_breaking_bad_characters" />
+    </navigation>
+
+    <navigation
+        android:id="@+id/graph_tab"
+        app:startDestination="@id/graphFragment">
+        <fragment
+            android:id="@+id/graphFragment"
+            android:name="ru.alexeypodusov.sample649.graphfeature.presentation.view.GraphFragment"
+            android:label="graph_fragment" />
+    </navigation>
+</navigation>

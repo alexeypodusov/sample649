@@ -1,0 +1,10 @@
+<resources>
+    <string name="unknown_error">Неизвестная ошибка:(</string>
+    <string name="request_failure_no_network_exception">Проверьте интернет-соединение</string>
+    <string name="request_failure_network_exception">Не удалось установить соединение с сервером</string>
+    <string name="request_failure_timeout_exception">Превышено время ожидания от сервера. Проверьте интернет-соединение</string>
+    <string name="request_connection_close_by_peer">Проблема с интернет-соединением. Проверьте ваш пакет интернет-трафика на sim-карте</string>
+    <string name="request_connection_reset_by_peer">Проблема с интернет-соединением. Проверьте настройки сети и повторите авторизацию</string>
+    <string name="request_network_timeout">Ошибка. Превышен интервал ожидания ответа от сервера</string>
+    <string name="api_request_limit">Превышен лимит запросов к серверу. Попробуйте через сутки</string>
+</resources>
